@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Namaste React</title>
+</head>
+<body>
+    <h3>...Common top of root...</h3>
+    <div id="root">
+        <h1>Ram is good boy</h1> <!--h1 tag will be replaced by the parent-->
+    </div>
+    <h3>...Common below of root...</h3>
+
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello from India";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script> -->
+
+    <!-- In ReactJS, Cross-Origin Resource Sharing or CORS requests refers to the method 
+    that allows you to make requests to the server deployed at a different domain. 
+    As a reference, if the frontend and backend are at two different domains, we need CORS there -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>
