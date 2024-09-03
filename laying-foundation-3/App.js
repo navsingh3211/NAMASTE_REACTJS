@@ -29,7 +29,7 @@ const Title = ()=>(
             Namaste React
         </h1>
     </div>
-)
+);
 
 //component composition
 const number = 10000;
@@ -37,7 +37,9 @@ const HeadingCoponent = ()=>(
     <div id="container">
         {number}
         {jsxHeading}
+        {Title()}
         <Title/>
+        <Title></Title>
         <h1 className="heading">Namaste React Functional1 component</h1>
     </div>
 )
