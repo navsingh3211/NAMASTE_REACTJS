@@ -1,17 +1,13 @@
-5969
-99/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/igniting-app-2.3464ddca.js.map1725088591802142117 0
-86/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.7c0ccee6.js1725088591791141890 0
-87/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.9e4c6fd2.css1725088591791141890 0
-68/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist1725088591773141519 1
-94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/.eslintrc1725088591235130420 0
-92/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/test.js1725088591234130399 0
-93/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/index.js1725088591232130358 0
-94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/README.md1725088591226130234 0
-97/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/package.json1725088591224130193 0
-84/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process1725088591079127201 1
+5971
 81/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/package-lock.json1725088591337132524 0
+99/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/igniting-app-2.3464ddca.js.map1725339706966360594 0
+90/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.5baa4167.js.map1725344910882134800 0
+87/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.9e4c6fd2.css1725344910811130621 0
+86/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.7c0ccee6.js1725339706952360990 0
+86/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.5baa4167.js1725344910875134388 0
+68/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist1725344910886135035 1
 73/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/index.css1725087923829376629 0
-74/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/.gitignore1725088531120923495 0
+74/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/.gitignore1725341642407447157 0
 95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/get-port/readme.md1725086156529133246 0
 96/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/get-port/index.d.ts1725086156528133216 0
 98/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/cosmiconfig/README.md1725086153162032259 0
@@ -133,7 +129,7 @@
 109/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/convertor/index.cjs1725086153334037417 0
 103/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/utils/url.cjs1725086153684047912 0
 105/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/utils/clone.cjs1725086152927025213 0
-70/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/app.js1725087923793375460 0
+70/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/app.js1725340252449838363 0
 104/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/utils/List.cjs1725086153497042305 0
 105/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/utils/index.cjs1725086153468041435 0
 106/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/utils/string.cjs1725086153624046113 0
@@ -212,7 +208,7 @@
 118/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/FeatureRange.cjs1725086153241034628 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/Ratio.cjs1725086153589045063 0
 120/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/index-generate.cjs1725086153329037267 0
-79/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.html1725088591785141766 0
+79/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.html1725344910873134270 0
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/Number.cjs1725086153545043744 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/Value.cjs1725086153687048002 0
 109/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/cjs/syntax/node/Raw.cjs1725086153591045123 0
@@ -337,7 +333,7 @@
 103/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/binary.js1725086152943025692 0
 102/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/pairs.js1725086153222034058 0
 106/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/timestamp.js1725086153262035258 0
-73/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/README.md1725088332729496622 0
+73/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/README.md1725344509776551196 0
 100/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/int.js1725086153022028061 0
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/bool.js1725086152946025782 0
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/js-yaml/lib/type/omap.js1725086153220033998 0
@@ -548,6 +544,11 @@
 144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/utils/clone.js1725086157812171741 0
 151/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/TokenStream.js1725086158043178673 0
 144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/List.js1725086158013177772 0
+152/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/adopt-buffer.js1725086157762170241 0
+156/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/OffsetToLocation.js1725086158027178193 0
+138/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/index.js1725086157994177202 0
+148/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/structure.js1725086158038178523 0
+144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/index.js1725086157997177292 0
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/domelementtype/lib/esm/package.json1725086152765020356 0
 91/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/domelementtype1725086152773020596 1
 100/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/cjs/replace/atrule1725086153079029770 1
@@ -706,6 +707,7 @@
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/alternate-stylesheet.js1725086153199033369 0
 115/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/dist/unpacker/features.js1725086153985056938 0
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/es6-number.js1725086153970056488 0
+97/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/package.json1725088591224130193 0
 122/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/abortcontroller.js1725086153034028421 0
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/jpegxl.js1725086154104060507 0
 121/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/pagevisibility.js1725086154261065215 0
@@ -1109,7 +1111,7 @@
 110/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/eot.js1725086153960056188 0
 98/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/domutils/package.json1725086152696018287 0
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_name_tdz_error1725086153938055529 1
-76/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/package.json1725088591252130770 0
+76/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/package.json1725344910331102369 0
 128/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/font-family-system-ui.js1725086154002057448 0
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/semver/internal/debug.js1725086153508042635 0
 128/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/node_modules/css-tree/lib/syntax/config/mix.js1725086158046178763 0
@@ -1134,7 +1136,7 @@
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/css-overflow-overlay.js1725086153802051450 0
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/regions/AI.js1725086153158032139 0
 115/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/scheduler/cjs/scheduler.development.js1725088415764814750 0
-91/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.9e4c6fd2.css.map1725088591802142117 0
+91/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.9e4c6fd2.css.map1725344910812130680 0
 103/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/cjs/replace/index.cjs1725086153071029531 0
 105/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/ordered-binary/tests/test.js1725086152956026082 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/details.js1725086153924055109 0
@@ -1156,7 +1158,7 @@
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/tls1-2.js1725086154316066865 0
 118/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/packager-html/src/HTMLPackager.js1725086156876143656 0
 102/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/semver/functions/valid.js1725086153643046683 0
-94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@msgpackr-extract1725088415976818343 1
+94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@msgpackr-extract1725088591246130647 1
 115/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/wordwrap.js1725086154354068005 0
 102/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/resolve-from/package.json1725086152887024014 0
 107/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/src/serializer.js1725086158074179603 0
@@ -1277,6 +1279,7 @@
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/lib/generator/sourceMap.js1725086153954056008 0
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest6.c1725086153785050941 0
 104/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/type-fest/source/entry.d.ts1725086153080029800 0
+94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/README.md1725088591226130234 0
 94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/stable/index.d.ts1725086152598015349 0
 130/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/rust/parcel-node-bindings.win32-x64-msvc.node1725086158213183775 0
 125/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib1725086157930175282 1
@@ -1522,7 +1525,6 @@
 120/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/removeOptionalTags.cjs1725086153561044224 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/minifyCss.cjs1725086153532043354 0
 124/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/createimagebitmap.js1725086153672047552 0
-152/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/adopt-buffer.js1725086157762170241 0
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/json5/lib/stringify.d.ts1725086153571044524 0
 120/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/removeOptionalTags.mjs1725086153813051780 0
 147/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/css/selectors.schema.json1725086157845172731 0
@@ -1550,6 +1552,8 @@
 91/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/type-fest/ts411725086153203033489 1
 109/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/entities/lib/decode_codepoint.js1725086152680017807 0
 109/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/term-size/vendor/macos/.DS_Store1725086153321037027 0
+144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/trace.js1725086158043178673 0
+140/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/compile.d.ts1725086157829172251 0
 106/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/mdn-data/api/inheritance.json1725086153052028961 0
 133/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/entities/lib/esm/encode.d.ts.map1725086157501162409 0
 104/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/type-fest/source/basic.d.ts1725086153017027911 0
@@ -1931,6 +1935,7 @@
 164/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/tokenizer/char-code-definitions.js1725086157798171321 0
 110/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/postcss-value-parser/package.json1725086153153031989 0
 118/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/lib/restructure/8-restructRuleset.js1725086153235034448 0
+93/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/index.js1725088591232130358 0
 131/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/msgpackr-extract/node_modules/detect-libc/package.json1725086157662167240 0
 163/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines/index.js1725086158037178493 0
 89/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/entities/lib1725086152830022305 1
@@ -2178,7 +2183,7 @@
 104/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlparser2/lib/Parser.d.ts1725086152722019067 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/type-fest/ts41/delimiter-case.d.ts1725086153073029590 0
 92/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/srcset/index.js1725086152992027162 0
-82/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@lmdb1725088415976818343 1
+82/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@lmdb1725088591247130667 1
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/react-refresh/cjs/react-refresh-runtime.production.min.js1725086153252034958 0
 116/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/sortAttributes.mjs1725086153817051900 0
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/webvtt.js1725086154350067885 0
@@ -2420,7 +2425,6 @@
 139/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/Number.js1725086157921175012 0
 94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/picomatch/LICENSE1725086152813021795 0
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/safe-buffer/package.json1725086152602015469 0
-138/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/index.js1725086157994177202 0
 93/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/is-json/index.js1725086152917024913 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/flexbox.js1725086153995057238 0
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/profiler/lib/SamplingProfiler.js1725086154565074333 0
@@ -2649,7 +2653,7 @@
 129/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/domutils/lib/esm/querying.js1725086157501162409 0
 95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/domelementtype/lib1725086152810021705 1
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/regions/CX.js1725086153909054659 0
-95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/igniting-app-2.3464ddca.js1725088591791141890 0
+95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/igniting-app-2.3464ddca.js1725339706952360990 0
 98/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/import-fresh/index.js1725086152944025722 0
 144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/svgo/lib/svgo/css-class-list.js1725086157828172221 0
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/regions/TR.js1725086154318066925 0
@@ -3102,8 +3106,6 @@
 124/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/domutils/lib/feeds.d.ts1725086157767170391 0
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/wasm-reference-types.js1725086154338067525 0
 103/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/watcher/wrapper.js1725086153477041705 0
-95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/browser.js1725088591231130337 0
-125/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/css-widows-orphans.js1725086153852052950 0
 128/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/posthtml/node_modules/posthtml-parser/dist/index.js1725086157588165020 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/ac3-ec3.js1725086153051028931 0
 103/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@lezer/lr/dist/index.d.cts1725086153595045243 0
@@ -3135,6 +3137,7 @@
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/invalid-target-source-not-file1725086158096180263 1
 131/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/entities/lib/esm/encode.js.map1725086157503162469 0
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/regions/IE.js1725086154076059667 0
+84/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process1725088591234130399 1
 106/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/lmdb/dependencies/lz4/LICENSE1725086153516042874 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_defaults/package.json1725086154016057868 0
 146/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/entities/lib/esm/generated/decode-data-xml.js1725086157429160249 0
@@ -3335,6 +3338,7 @@
 155/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines1725086158100180383 1
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/css-at-counter-style.js1725086153683047882 0
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/lib/esm/package.json1725086153019027971 0
+94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/.eslintrc1725088591235130420 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/transformer-svg/src/inline.js1725086155377098687 0
 108/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/regions/IN.js1725086154082059847 0
 105/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/nth-check/lib/parse.d.ts.map1725086152700018407 0
@@ -3343,8 +3347,6 @@
 96/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/index.d.ts1725086153819051960 0
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/dist/csso.js1725086157875173632 0
 107/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/lib/esm/sort.js.map1725086153218033939 0
-140/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/compile.d.ts1725086157829172251 0
-144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/trace.js1725086158043178673 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/lib/attributes.d.ts.map1725086153071029531 0
 124/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/deviceorientation.js1725086153926055169 0
 94/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/source-map-js/lib1725086152691018137 1
@@ -3470,7 +3472,7 @@
 151/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/lang.js1725086158009177652 0
 91/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@lezer/lr/dist1725086153647046803 1
 120/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/border-radius.js1725086153501042425 0
-76/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules1725088415975818326 1
+76/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules1725088591246130647 1
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/svgo/README.md1725086158002177442 0
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/source-map/dist/wasm.js.flow1725086154473071574 0
 129/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/css-anchor-positioning.js1725086153678047732 0
@@ -3569,7 +3571,7 @@
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/local-plugin-config-pkg1725086158043178673 1
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/minifyUrls.cjs1725086153543043684 0
 121/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/lib/pseudo-selectors/aliases.d.ts1725086153297036307 0
-63/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-21725088548054256613 1
+63/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-21725341606805564886 1
 150/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Value.js1725086158046178763 0
 128/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/htmlnano/lib/modules/deduplicateAttributeValues.mjs1725086153788051031 0
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/config-node-pipeline/.parcelrc1725086157836172461 0
@@ -3617,7 +3619,7 @@
 89/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/lmdb/LICENSE1725086153518042934 0
 97/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/is-arrayish/index.js1725086152756020086 0
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_ts_metadata/package.json1725086154162062246 0
-90/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.7c0ccee6.js.map1725088591802142117 0
+90/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/dist/index.7c0ccee6.js.map1725339706966360594 0
 135/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/lightningcss-linux-x64-gnu/lightningcss.linux-x64-gnu.node1725086154187062996 0
 129/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@babel/highlight/node_modules/color-convert/index.js1725086157505162529 0
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/lightningcss-linux-x64-gnu/README.md1725086152949025872 0
@@ -3647,6 +3649,9 @@
 99/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/loose-envify/README.md1725088357283866952 0
 87/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/micromatch1725086153082029860 1
 97/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/micromatch/README.md1725086153100030400 0
+92/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/test.js1725088591234130399 0
+125/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/caniuse-lite/data/features/css-widows-orphans.js1725086153852052950 0
+95/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/process/browser.js1725088591231130337 0
 105/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/escape-string-regexp/license1725086152756020086 0
 134/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/node_modules/css-tree/lib/definition-syntax/parse.js1725086158051178913 0
 106/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/escape-string-regexp/index.js1725086152754020026 0
@@ -3876,6 +3881,8 @@
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_to_array/package.json1725086154146061766 0
 137/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/README.md1725086157829172251 0
 116/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_instanceof/package.json1725086154068059427 0
+136/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common1725086158043178673 1
+119/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_apply_descriptor_set1725086153916054869 1
 136/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_check_private_static_field_descriptor1725086153932055349 1
 93/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-tree/LICENSE1725086152702018467 0
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/src/ReporterRunner.js1725086158069179453 0
@@ -3910,7 +3917,7 @@
 122/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_tagged_template_literal_loose1725086154139061556 1
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/codeframe/test/codeframe.test.js1725086154160062186 0
 138/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/clean/Comment.js1725086157804171501 0
-74/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/index.html1725087923862377700 0
+74/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/index.html1725340631194931698 0
 135/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_tagged_template_literal_loose/package.json1725086154140061586 0
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_to_consumable_array1725086154149061856 1
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/posthtml/node_modules/posthtml-parser1725086157602165440 1
@@ -3935,8 +3942,6 @@
 101/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/cjs/clean/index.cjs1725086153052028961 0
 137/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/core/test/fixtures/config-plugin-not-found/.parcelrc1725086157845172731 0
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_ts_decorate/package.json1725086154158062126 0
-119/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_apply_descriptor_set1725086153916054869 1
-136/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common1725086158043178673 1
 131/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_static_private_field_destructure1725086153978056728 1
 111/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/svgo/plugins/removeStyleElement.js1725086153655047042 0
 133/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/css-select/node_modules/entities/lib/esm/escape.d.ts.map1725086157507162589 0
@@ -4972,7 +4977,7 @@
 122/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/transformer-css/src/CSSTransformer.js1725086155536103457 0
 104/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/transformer-css/lib1725086155534103397 1
 98/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/lib/clean/Raw.js1725086153585044943 0
-84/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel1725088415976818343 1
+84/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel1725088591246130647 1
 113/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/transformer-css/package.json1725086155536103457 0
 112/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/csso/lib/replace/property/border.js1725086153286035978 0
 100/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/bundler-default1725086157243154668 1
@@ -5083,7 +5088,7 @@
 118/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/utils/test/input/config/config.js1725086157424160099 0
 114/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/runtime-js/src/helpers/worker1725086156297126285 1
 129/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/runtime-js/src/helpers/worker/wasm-loader.js1725086156297126285 0
-81/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc1725088415975818326 1
+81/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc1725088591246130647 1
 127/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/runtime-js/src/helpers/worker/js-loader.js1725086156292126135 0
 126/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/runtime-js/src/helpers/bundle-manifest.js1725086156264125295 0
 121/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/runtime-js/src/helpers/bundle-url.js1725086156267125385 0
@@ -5854,7 +5859,6 @@
 117/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@swc/helpers/_/_class_private_method_get1725086153967056398 1
 137/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/compress.js1725086157820171981 0
 131/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/clean1725086157934175402 1
-144/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/index.js1725086157997177292 0
 145/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/clean/WhiteSpace.js1725086157935175432 0
 146/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/clean/Declaration.js1725086157908174622 0
 139/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/clean/Rule.js1725086157925175132 0
@@ -5966,5 +5970,3 @@
 156/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/generic-an-plus-b.js1725086157971176512 0
 131/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/workers/test/integration/workerfarm/console.js1725086154400069384 0
 153/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/prepare-tokens.js1725086158032178343 0
-148/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/structure.js1725086158038178523 0
-156/usr/local/src/myWork/myprojects/NAMASTE_REACTJS/igniting-app-2/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/OffsetToLocation.js1725086158027178193 0

@@ -4,7 +4,9 @@
   "description": "igniting our app first time",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build":"parcel build index.html"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +17,11 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browserslist":[
+    "last 10 chrome version",
+    "last 2 firefox version", 
+    "last 2 safari version",
+    "last 2 version --> will work on last two version of every browser"
+  ]
 }
