@@ -1,10 +1,10 @@
-const restroList = [
+let restroList = [
     {
       id:123,
       logo:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/14/8a91734c-c8a1-4089-b467-f9472618b742_719437.JPG",
       resName:"Azad Hind Dhaba",
       cuisine:"Sarso da saag,maake roti,Aaloo partha",
-      stars:"4.4",
+      stars:4.0,
       deleveryTime:"39 minutes"
     },
     {
@@ -12,7 +12,7 @@ const restroList = [
       logo:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/14/8a91734c-c8a1-4089-b467-f9472618b742_719437.JPG",
       resName:"Simla Birayani",
       cuisine:"Chicken biryani,Aaloo partha,daal tadka",
-      stars:"4.9",
+      stars:4.9,
       deleveryTime:"30 minutes"
     },
     {
@@ -20,7 +20,7 @@ const restroList = [
       logo:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/14/8a91734c-c8a1-4089-b467-f9472618b742_719437.JPG",
       resName:"Bikkegan",
       cuisine:"Haidrabaadi biryani",
-      stars:"4.6",
+      stars:4.6,
       deleveryTime:"50 minutes"
     },
 ];

@@ -22,3 +22,9 @@
  #named export/import
  export const FOOTER = "ddwdwd/dwdwdwd";
  import {FOOTER} from "file_path";
+
+
+ #note 
+ --> When ever a state variable updates,react re-renders the component
+ 1.) react fiber
+ 2.) Reconcialtion
