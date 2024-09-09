@@ -30,3 +30,4 @@
  2.) Reconcialtion
 
  3.) useEffect--> useEffect get called after the component get rendered
+ 4.) whenever state variable update,react triggers a reconciliation cycle(re-renders the components)

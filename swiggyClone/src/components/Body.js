@@ -5,12 +5,18 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestro, setListOfRestro] = useState([]);
+  const [searchedRestro, setSearchedRestro] = useState([]);
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
     setTimeout(() => {
       setListOfRestro(restroList);
+      setSearchedRestro(restroList);
     }, 3000);
   }, []);
+
+  //whenever state variable update,react triggers a reconciliation cycle(re-renders the components)
+  console.log("body render");
 
   //   //conditional rendering
   //   if (listOfRestro.length === 0) {
@@ -32,6 +38,24 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input
+            type="text"
+            className="search-box"
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
+          />
+          <button
+            onClick={() => {
+              let searchedData = listOfRestro.filter((res) =>
+                res.resName.toLowerCase().includes(searchText.toLowerCase())
+              );
+              setSearchedRestro(searchedData);
+            }}
+          >
+            Search
+          </button>
+        </div>
         <button
           className="filter-btn"
           onClick={() => {
@@ -42,7 +66,7 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        {listOfRestro.map((restaurant) => (
+        {searchedRestro.map((restaurant) => (
           <RestaurantCard key={restaurant.id} resData={restaurant} />
         ))}
       </div>
