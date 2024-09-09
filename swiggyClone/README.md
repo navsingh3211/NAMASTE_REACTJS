@@ -28,3 +28,5 @@
  --> When ever a state variable updates,react re-renders the component
  1.) react fiber
  2.) Reconcialtion
+
+ 3.) useEffect--> useEffect get called after the component get rendered
