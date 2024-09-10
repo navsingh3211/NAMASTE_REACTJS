@@ -31,3 +31,6 @@
 
  3.) useEffect--> useEffect get called after the component get rendered
  4.) whenever state variable update,react triggers a reconciliation cycle(re-renders the components)
+
+<li><a href="/about">About Us</a></li>==> it reload page when re-direct to about
+<li><Link to="/contact">Contact Us</Link></li> ==> it don't reload page when re-direct ==> react-router-dom==> clint side routing
