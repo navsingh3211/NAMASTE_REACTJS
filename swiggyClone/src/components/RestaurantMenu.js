@@ -1,8 +1,14 @@
 import { useEffect,useState } from "react";
+import {useParams} from "react-router-dom";
 import restroInfoList from "../utils/resInfo"
+import Shimmer from "./Shimmer";
 
 const RestaurantMenu = ()=>{
-    const [resInfo,setResInfo] = useState({});
+    const [resInfo,setResInfo] = useState(null);
+
+    const {resId} = useParams();
+    // console.log(typeof resId,'resId');
+    
 
     useEffect(()=>{
         fetchData();
@@ -13,15 +19,20 @@ const RestaurantMenu = ()=>{
     //     setResInfo(resData);
     // }
     const fetchData = ()=>{
-        
+        setResInfo(restroInfoList.filter((data)=>data.id === parseInt(resId) ));
     }
+    // console.log(resInfo);
+    if(resInfo === null) return <Shimmer/>;
+
     return (
         <div className="menu">
-            <h1>Name of restro</h1>
+            <h1>{resInfo[0].resName}</h1>
             <h2>Menu</h2>
             <ul>
-                <li>Biryani</li>
-                <li>Burgur</li>
+                {resInfo[0].cuisine.split(",").map((data)=>(
+                    <li key={data}>{data}</li>
+                ))}
+                <li>Water</li>
                 <li>Coke</li>
             </ul>
         </div>
