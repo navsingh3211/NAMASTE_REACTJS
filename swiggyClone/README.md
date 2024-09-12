@@ -6,6 +6,8 @@
  *  -Search
  *  -RestaurantContainer
  *    -RestaurantCard
+ *      -Img
+ *      -Name of Res,star rating,cuisine,description,delivery time
  * Footer
  *  -Copyright
  *  -Links
@@ -34,3 +36,23 @@
 
 <li><a href="/about">About Us</a></li>==> it reload page when re-direct to about
 <li><Link to="/contact">Contact Us</Link></li> ==> it don't reload page when re-direct ==> react-router-dom==> clint side routing
+
+
+# ************************************************************ #
+1.) When we have huge project like swiggy (swiggy food dilivery,insta mart)
+and if we keep both app in same bundle then it will be a huge bundle
+therefore to avoid it we will make a different bundle for insta mart
+which will be a optimized way***
+(
+    which is also called :
+    #Chunking
+    #Code spliting
+    # Dynamic Bundling
+    #Lazy Loading
+    #on demand loading
+) for it we will use lazy loading :
+when our app home page get loaded then it will not load code for the grocery
+it will load the grocery only when we go for the gorcery link in our app
+
+
+# ************************************************************ #
