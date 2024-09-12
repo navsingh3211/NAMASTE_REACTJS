@@ -9,7 +9,7 @@ const RestaurantMenu = ()=>{
     const {resId} = useParams();
     // console.log(typeof resId,'resId');
     
-
+    //we can create a seperate hook for fetching card data
     useEffect(()=>{
         fetchData();
     },[]);

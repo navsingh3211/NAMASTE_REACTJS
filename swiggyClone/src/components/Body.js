@@ -3,6 +3,8 @@ import restroList from "../utils/mockData";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
+
 
 const Body = () => {
   const [listOfRestro, setListOfRestro] = useState([]);
@@ -15,6 +17,10 @@ const Body = () => {
       setSearchedRestro(restroList);
     }, 3000);
   }, []);
+
+  const onlineStatus = useOnlineStatus();
+  if(!onlineStatus) return <h1>Looks like you are offline line!! Please check your internet connection.</h1>
+
 
   //whenever state variable update,react triggers a reconciliation cycle(re-renders the components)
   console.log("body render");
