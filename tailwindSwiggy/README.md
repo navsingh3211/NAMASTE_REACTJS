@@ -57,3 +57,6 @@ it will load the grocery only when we go for the gorcery link in our app
 
 
 # ************************************************************ #
+
+
+# postcssrc help parcel to understand tailwind in our code

@@ -8,35 +8,35 @@ const Header = () => {
   const onelineStatus = useOnlineStatus();
 
   return (
-    <div className="header">
+    <div className="flex justify-between bg-neutral-200 shadow-lg m-2">
       <div>
-        <img className="logo" src={HEADER_LOGO_URL}></img>
+        <img className="w-56 rounded-full" src={HEADER_LOGO_URL}></img>
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>
+      <div className="flex items-center">
+        <ul className="flex p-50 m-10">
+          <li className="px-4">
             Online Status:
             {onelineStatus ? (
-              <span className="logged-in">●</span>
+              <span className="text-green-400">●</span>
             ) : (
-              <span className="logged-out">●</span>
+              <span className="text-red-500">●</span>
             )}
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/about">About Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/grocery">Grocery section</Link>
           </li>
-          <li>Cart</li>
+          <li className="px-4">Cart</li>
           <button
-            className="login"
+            className="pr-2"
             onClick={() => {
               LoginStatus === "Login"
                 ? setLoginStatus("Logout")

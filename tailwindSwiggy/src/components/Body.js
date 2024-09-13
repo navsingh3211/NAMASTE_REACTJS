@@ -45,14 +45,14 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
-        <div className="search">
+        <div className="search p-4 m-4">
           <input
             type="text"
-            className="search-box"
+            className="border border-solid border-black"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
-          <button
+          <button className="px-6 py-1.5 bg-green-100 m-4 rounded-lg"
             onClick={() => {
               let searchedData = listOfRestro.filter((res) =>
                 res.resName.toLowerCase().includes(searchText.toLowerCase())
