@@ -5,7 +5,6 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
-
 const Body = () => {
   const [listOfRestro, setListOfRestro] = useState([]);
   const [searchedRestro, setSearchedRestro] = useState([]);
@@ -19,8 +18,12 @@ const Body = () => {
   }, []);
 
   const onlineStatus = useOnlineStatus();
-  if(!onlineStatus) return <h1>Looks like you are offline line!! Please check your internet connection.</h1>
-
+  if (!onlineStatus)
+    return (
+      <h1>
+        Looks like you are offline line!! Please check your internet connection.
+      </h1>
+    );
 
   //whenever state variable update,react triggers a reconciliation cycle(re-renders the components)
   console.log("body render");
@@ -44,7 +47,7 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
+      <div className="filter flex">
         <div className="search p-4 m-4">
           <input
             type="text"
@@ -52,7 +55,8 @@ const Body = () => {
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
-          <button className="px-6 py-1.5 bg-green-100 m-4 rounded-lg"
+          <button
+            className="px-6 py-1.5 bg-green-100 m-4 rounded-lg"
             onClick={() => {
               let searchedData = listOfRestro.filter((res) =>
                 res.resName.toLowerCase().includes(searchText.toLowerCase())
@@ -63,18 +67,22 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            setListOfRestro(listOfRestro.filter((data) => data.stars > 4.0));
-          }}
-        >
-          Top rated Restro
-        </button>
+        <div className="search p-4 m-4 flex items-center">
+          <button
+            className="px-4 py-1.5 bg-gray-300 rounded-lg"
+            onClick={() => {
+              setListOfRestro(listOfRestro.filter((data) => data.stars > 4.0));
+            }}
+          >
+            Top rated Restro
+          </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="res-container flex flex-wrap">
         {searchedRestro.map((restaurant) => (
-          <Link to={"/restaurants/" + restaurant.id} key={restaurant.id}><RestaurantCard resData={restaurant} /></Link>
+          <Link to={"/restaurants/" + restaurant.id} key={restaurant.id}>
+            <RestaurantCard resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
