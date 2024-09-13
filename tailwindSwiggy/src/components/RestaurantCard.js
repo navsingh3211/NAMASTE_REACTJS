@@ -3,7 +3,7 @@ const RestaurantCard = (props) => {
       // console.log(resData,'resData');
     const {logo,resName,cuisine,stars,deleveryTime} = resData;
     return (
-      <div className="res-card p-1.5 m-1.5 w-[200px] h-[380px] bg-slate-50 rounded-lg">
+      <div className="res-card p-1.5 m-1.5 w-[200px] h-[380px] bg-slate-50 hover:bg-slate-200 rounded-lg">
         <img
           className="res-logo max-w-full max-h-full rounded-lg"
           alt="res-logo"

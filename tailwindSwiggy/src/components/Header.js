@@ -8,7 +8,7 @@ const Header = () => {
   const onelineStatus = useOnlineStatus();
 
   return (
-    <div className="flex justify-between bg-neutral-200 shadow-lg m-2">
+    <div className="flex justify-between bg-pink-200 shadow-lg m-2 sm:bg-green-100 lg:bg-neutral-200">
       <div>
         <img className="w-56 rounded-full" src={HEADER_LOGO_URL}></img>
       </div>
