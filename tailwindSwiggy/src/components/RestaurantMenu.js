@@ -2,6 +2,7 @@ import { useEffect,useState } from "react";
 import {useParams} from "react-router-dom";
 import restroInfoList from "../utils/resInfo"
 import Shimmer from "./Shimmer";
+import RestaurantCategory from "./RestaurantCategory";
 
 const RestaurantMenu = ()=>{
     const [resInfo,setResInfo] = useState(null);
@@ -25,16 +26,15 @@ const RestaurantMenu = ()=>{
     if(resInfo === null) return <Shimmer/>;
 
     return (
-        <div className="menu">
-            <h1>{resInfo[0].resName}</h1>
-            <h2>Menu</h2>
-            <ul>
-                {resInfo[0].cuisine.split(",").map((data)=>(
-                    <li key={data}>{data}</li>
-                ))}
-                <li>Water</li>
-                <li>Coke</li>
-            </ul>
+        <div className="text-center">
+            <h1 className="font-bold my-3 text-2xl">{resInfo[0].resName}</h1>
+            <p className="font-bold text-lg">{resInfo[0].cuisine}</p>
+            {/* categories accordians */}
+            {
+                resInfo[0].categories.map((category)=>(
+                    <RestaurantCategory data={category} key={category.title}/>
+                ))
+            }
         </div>
     )
 }
