@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard,{withPromotedLabel} from "./RestaurantCard";
 import restroList from "../utils/mockData";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
@@ -9,6 +9,8 @@ const Body = () => {
   const [listOfRestro, setListOfRestro] = useState([]);
   const [searchedRestro, setSearchedRestro] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   useEffect(() => {
     setTimeout(() => {
@@ -81,7 +83,7 @@ const Body = () => {
       <div className="res-container flex flex-wrap">
         {searchedRestro.map((restaurant) => (
           <Link to={"/restaurants/" + restaurant.id} key={restaurant.id}>
-            <RestaurantCard resData={restaurant} />
+            {restaurant.isPromoted ? <RestaurantCardPromoted resData={restaurant}/> : <RestaurantCard resData={restaurant} />}
           </Link>
         ))}
       </div>
