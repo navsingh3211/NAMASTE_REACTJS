@@ -1,9 +1,10 @@
 import RestaurantCard,{withPromotedLabel} from "./RestaurantCard";
 import restroList from "../utils/mockData";
-import { useState, useEffect } from "react";
+import { useState, useEffect,useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import userContext from "../utils/userContext";
 
 const Body = () => {
   const [listOfRestro, setListOfRestro] = useState([]);
@@ -20,6 +21,8 @@ const Body = () => {
   }, []);
 
   const onlineStatus = useOnlineStatus();
+  const {loggedInUser,setUserName} = useContext(userContext);
+
   if (!onlineStatus)
     return (
       <h1>
@@ -78,6 +81,9 @@ const Body = () => {
           >
             Top rated Restro
           </button>
+        </div>
+        <div className="search p-4 m-4 flex items-center">
+          UserName: <input value={loggedInUser} onChange={(e)=>setUserName(e.target.value)} className="border border-solid border-black p-2"/>
         </div>
       </div>
       <div className="res-container flex flex-wrap">

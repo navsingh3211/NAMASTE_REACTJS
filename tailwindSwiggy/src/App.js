@@ -35,8 +35,8 @@ const AppLayout = () => {
     // any where inside our app,the value of context provider will be avalible.
     // we can apply to context to any specific portion also like on header exp:below
 
-    //Default username
-    <userContext.Provider value={{ loggedInUser: userName }}>
+    //Default username --> outside the provider
+    <userContext.Provider value={{ loggedInUser: userName ,setUserName}}>
       {/* "Navneet Singh" */}
       <div className="app">
         <userContext.Provider value={{ loggedInUser: "Elon musk" }}>
