@@ -1,5 +1,9 @@
+import { useContext } from "react";
+import userContext from "../utils/userContext";
+
 const RestaurantCard = (props) => {
   const { resData } = props;
+  const dataFromContext = useContext(userContext);
   // console.log(resData,'resData');
   const { logo, resName, cuisine, stars, deleveryTime } = resData;
   return (
@@ -13,6 +17,7 @@ const RestaurantCard = (props) => {
       <h4>{cuisine}</h4>
       <h4>{stars}</h4>
       <h4>{deleveryTime}</h4>
+      <h4>{dataFromContext.loggedInUser}</h4>
     </div>
   );
 };

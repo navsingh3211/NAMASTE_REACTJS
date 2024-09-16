@@ -1,4 +1,4 @@
-import React,{lazy,Suspense} from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDom from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -8,9 +8,8 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer";
+import userContext from "./utils/userContext";
 // import Grocery from "./components/Grocery";
-
-
 
 //Chunking
 //Code spliting
@@ -18,15 +17,35 @@ import Shimmer from "./components/Shimmer";
 //Lazy Loading
 //on demand loading
 
-const Grocery = lazy(()=>import("./components/Grocery"));
-
+const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
+  const [userName, setUserName] = useState("");
+
+  //authentication
+  useEffect(() => {
+    //Make an API call and send username and password
+    const data = {
+      name: "Navneet Singh",
+    };
+    setUserName(data.name);
+  }, []);
+
   return (
-    <div className="app">
-      <Header />
-      <Outlet />
-    </div>
+    // any where inside our app,the value of context provider will be avalible.
+    // we can apply to context to any specific portion also like on header exp:below
+
+    //Default username
+    <userContext.Provider value={{ loggedInUser: userName }}>
+      {/* "Navneet Singh" */}
+      <div className="app">
+        <userContext.Provider value={{ loggedInUser: "Elon musk" }}>
+        {/* "Elon musk" */}
+          <Header />
+        </userContext.Provider>
+        <Outlet />
+      </div>
+    </userContext.Provider>
   );
 };
 
@@ -49,7 +68,11 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/grocery",
-        element: <Suspense fallback={<Shimmer/>}><Grocery /></Suspense>,
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <Grocery />
+          </Suspense>
+        ),
       },
       {
         path: "/restaurants/:resId",

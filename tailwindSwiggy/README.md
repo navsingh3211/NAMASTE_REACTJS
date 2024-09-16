@@ -63,3 +63,4 @@ it will load the grocery only when we go for the gorcery link in our app
 
 #note
 1.) Lifting the state up
+2.) Props drilling
