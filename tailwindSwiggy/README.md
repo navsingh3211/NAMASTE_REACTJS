@@ -64,3 +64,7 @@ it will load the grocery only when we go for the gorcery link in our app
 #note
 1.) Lifting the state up
 2.) Props drilling
+
+#redux is external library
+#but context api is inside the react and it react package
+#UI layer and data layer keep both seperate  and data layer should be well structred

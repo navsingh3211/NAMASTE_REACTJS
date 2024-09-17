@@ -11,12 +11,13 @@ import Shimmer from "./components/Shimmer";
 import userContext from "./utils/userContext";
 // import Grocery from "./components/Grocery";
 
-//Chunking
-//Code spliting
-// Dynamic Bundling
-//Lazy Loading
-//on demand loading
-
+/*
+  -Chunking
+  -Code spliting
+  -Dynamic Bundling
+  -Lazy Loading
+  -on demand loading 
+*/
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
