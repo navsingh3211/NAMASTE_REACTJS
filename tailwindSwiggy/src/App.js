@@ -10,6 +10,8 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer";
 import userContext from "./utils/userContext";
 // import Grocery from "./components/Grocery";
+import {Provider} from "react-redux";
+import appStore from "./utils/appStore";
 
 /*
   -Chunking
@@ -33,10 +35,10 @@ const AppLayout = () => {
   }, []);
 
   return (
-    // any where inside our app,the value of context provider will be avalible.
-    // we can apply to context to any specific portion also like on header exp:below
-
-    //Default username --> outside the provider
+    <Provider store={appStore} >
+    {/*  any where inside our app,the value of context provider will be avalible.
+     we can apply to context to any specific portion also like on header exp:below
+    Default username --> outside the provider */ }
     <userContext.Provider value={{ loggedInUser: userName ,setUserName}}>
       {/* "Navneet Singh" */}
       <div className="app">
@@ -47,6 +49,7 @@ const AppLayout = () => {
         <Outlet />
       </div>
     </userContext.Provider>
+    </Provider>
   );
 };
 

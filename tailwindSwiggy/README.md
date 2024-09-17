@@ -68,3 +68,21 @@ it will load the grocery only when we go for the gorcery link in our app
 #redux is external library
 #but context api is inside the react and it react package
 #UI layer and data layer keep both seperate  and data layer should be well structred
+
+
+# Redux ToolKit start********************************************************
+#  - install @reduxjs/toolkit and react-redux
+#  - Build our store 
+#  - Connect our store to our app
+#  - Slice (cartSlice)
+#  - dispatch(action)
+#  - Selector
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# Redux ToolKit end**********************************************************
