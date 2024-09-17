@@ -1,5 +1,5 @@
 import { HEADER_LOGO_URL } from "../utils/constants";
-import { useState,useContext } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import userContext from "../utils/userContext";
@@ -13,8 +13,8 @@ const Header = () => {
   // console.log(dataFromContext,'dataFromContext');
 
   // Subscribing to store using a Selector
-  const cartItems = useSelector((store)=>store.cart.items);
-  console.log(cartItems,'cartItems')
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems, "cartItems");
   return (
     <div className="flex justify-between bg-pink-200 shadow-lg m-2 sm:bg-green-100 lg:bg-neutral-200">
       <div>
@@ -42,7 +42,9 @@ const Header = () => {
           <li className="px-4">
             <Link to="/grocery">Grocery section</Link>
           </li>
-          <li className="px-4 font-bold">Cart-({cartItems.length} items)</li>
+          <li className="px-4 font-bold">
+            <Link to="/cart">Cart-({cartItems.length} items)</Link>
+          </li>
           <button
             className="pr-2"
             onClick={() => {

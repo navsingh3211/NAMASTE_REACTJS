@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
+import Cart from "./components/Cart";
 import Shimmer from "./components/Shimmer";
 import userContext from "./utils/userContext";
 // import Grocery from "./components/Grocery";
@@ -69,6 +70,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/grocery",
