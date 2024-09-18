@@ -79,8 +79,26 @@ it will load the grocery only when we go for the gorcery link in our app
 #  - Selector
 # 
 # 
+
+* Vaniall(Older) Redux ==> DoN'T Mutate the state
+* const newState = [...state]
+* newState.item.push(action.payload)
+* return new state
+* 
+* But in new Verion Of redux
+* :Redux tool kit : (Uses immer behind the scene)
+* ==>We have mutate the state (But behind the scene redux don't mutate the state as before in vanilla and redux user immer to achive this feature)
+#
 # 
-# 
+in side the store
+# clearCart: (state) => {
+    //   console.log(state); //we can't read the state like this b/c redux uses proxy object for state
+    //   console.log(current(state)); // here using current we can log the state easily
+    //   state=[] //==> we can't mutate the state like this bcs state is a local variable here
+    //   console.log(state);
+
+      state.items.length = 0; //=[]
+    },
 # 
 # 
 # 
