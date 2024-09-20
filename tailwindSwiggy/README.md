@@ -107,7 +107,7 @@ in side the store
 
 
 
-# Types of testing(developer)********************************************************************************
+# Types of testing(developer) (__test__=> dunder test)********************************************************************************
 # - Unit testing(test a component in isolation)
 # - Integration testing(we test where multiple component involve and talking to each other)
 # - End to End testing(e2e testing)(testing our app from where user land to the end of our app)
@@ -119,7 +119,7 @@ in side the store
   # 4.) configure babel (babel.config.js)
 #   5.) configure parcel config file to disable default babel transpilation(https://parceljs.org/languages/javascript/  #babel)  (.parcelrc)
 #   6.) jest configuration (npx jest --init)(npx --> initilation of jest)
-#
+#   7.) install js dom (npm install --save-dev jest-environment-jsdom)
 #
 # ********************************************************************************
 
