@@ -117,10 +117,12 @@ in side the store
   # 2.) install jest (npm i -D jest)
   # 3.) install babel dependancy (npm i -D babel-jest @babel/core @babel/preset-env)
   # 4.) configure babel (babel.config.js)
-#   5.) configure parcel config file to disable default babel transpilation(https://parceljs.org/languages/javascript/  #babel)  (.parcelrc)
+  # 5.) configure parcel config file to disable default babel transpilation(https://parceljs.org/languages/javascript/  #babel)  (.parcelrc)
 #   6.) jest configuration (npx jest --init)(npx --> initilation of jest)
-#   7.) install js dom (npm install --save-dev jest-environment-jsdom)
-#
+#   7.) install jsdom (npm install --save-dev jest-environment-jsdom)
+#   8.) install @babel/preset-react (npm i -D @babel/preset-react)--> to make jsx to work in test cases
+#   9.) include @babel/preset-react inside my babel config js
+#   10.) install @testing-library/jest-dom(other wise we get error like TypeError: expect(...).toBeInTheDocument is not a function)
 # ********************************************************************************
 
 # parcel bundler uses babel behind the scene 
