@@ -104,3 +104,23 @@ in side the store
 # 
 # 
 # Redux ToolKit end**********************************************************
+
+
+
+# Types of testing(developer)********************************************************************************
+# - Unit testing(test a component in isolation)
+# - Integration testing(we test where multiple component involve and talking to each other)
+# - End to End testing(e2e testing)(testing our app from where user land to the end of our app)
+# - Setting up testinng in our app :
+  # 1.) install React testing Library
+  # --> npm i -D @testing-library/react @testing-library/dom
+  # 2.) install jest (npm i -D jest)
+  # 3.) install babel dependancy (npm i -D babel-jest @babel/core @babel/preset-env)
+  # 4.) configure babel (babel.config.js)
+#   5.) configure parcel config file to disable default babel transpilation(https://parceljs.org/languages/javascript/  #babel)  (.parcelrc)
+#   6.) jest configuration (npx jest --init)(npx --> initilation of jest)
+#
+#
+# ********************************************************************************
+
+# parcel bundler uses babel behind the scene 
