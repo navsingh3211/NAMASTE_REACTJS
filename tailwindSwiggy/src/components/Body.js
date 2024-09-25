@@ -76,7 +76,7 @@ const Body = () => {
           <button
             className="px-4 py-1.5 bg-gray-300 rounded-lg"
             onClick={() => {
-              setListOfRestro(listOfRestro.filter((data) => data.stars > 4.0));
+              setListOfRestro(listOfRestro.filter((data) => data.stars > 4.7));
             }}
           >
             Top rated Restro

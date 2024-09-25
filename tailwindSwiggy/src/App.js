@@ -11,7 +11,7 @@ import Cart from "./components/Cart";
 import Shimmer from "./components/Shimmer";
 import userContext from "./utils/userContext";
 // import Grocery from "./components/Grocery";
-import {Provider} from "react-redux";
+import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 
 /*
@@ -36,20 +36,20 @@ const AppLayout = () => {
   }, []);
 
   return (
-    <Provider store={appStore} >
-    {/*  any where inside our app,the value of context provider will be avalible.
+    <Provider store={appStore}>
+      {/*  any where inside our app,the value of context provider will be avalible.
      we can apply to context to any specific portion also like on header exp:below
-    Default username --> outside the provider */ }
-    <userContext.Provider value={{ loggedInUser: userName ,setUserName}}>
-      {/* "Navneet Singh" */}
-      <div className="app">
-        <userContext.Provider value={{ loggedInUser: "Elon musk" }}>
-        {/* "Elon musk" */}
-          <Header />
-        </userContext.Provider>
-        <Outlet />
-      </div>
-    </userContext.Provider>
+    Default username --> outside the provider */}
+      <userContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        {/* "Navneet Singh" */}
+        <div className="app">
+          <userContext.Provider value={{ loggedInUser: "Elon musk" }}>
+            {/* "Elon musk" */}
+            <Header />
+          </userContext.Provider>
+          <Outlet />
+        </div>
+      </userContext.Provider>
     </Provider>
   );
 };

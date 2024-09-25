@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 import { clearCart } from "../utils/cartSlice";
 
 const Cart = ()=>{
-    const cartItems = useSelector((store)=>store.cart.items);
+    const cartItems = useSelector((store)=>store.cart.items);//subscribing the store to get data from store
     // console.log(cartItems,'cartItems cartItems cartItems')
     const dispatch = useDispatch();
 
